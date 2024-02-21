@@ -1,0 +1,34 @@
+%\documentclass[times, 12pt, twocolumn]{article}
+\documentclass[times, 12pt]{article}
+
+% Config
+\input{config/packages}
+\input{config/commands}
+\input{config/config}
+\input{annexes/glossary}
+
+
+\begin{document}
+% Introduction
+\input{templates/titlepage}
+\tableofcontents
+%\listoffigures
+\input{sections/introduction}
+% Corps
+\input{sections/réécriture}
+\input{sections/exploration_des_données}
+\input{sections/termes_corrélés}
+\input{sections/termes_atypiques}
+% Bibliographie
+%\bibliographystyle{plain}
+%\bibliography{references/bibliography}
+%\addcontentsline{toc}{section}{Bibliographie}
+% Annexes
+%\appendix
+%\printglossaries
+%\addcontentsline{toc}{section}{Glossaire}
+%\input{annexes/annexes}
+
+\end{document}
+
+

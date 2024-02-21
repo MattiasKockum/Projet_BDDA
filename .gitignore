@@ -1,0 +1,8 @@
+# Data & Results
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+
+# Pycache
+**/__pycache__/*
